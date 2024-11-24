@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Swimlane",
+  "version": "1.0.0",
+  "description": "Adds copy button for all cases",
+  "permissions": ["scripting", "clipboardWrite"],
+  "host_permissions": ["https://bluenode.int.ctrlgroup.local/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Copy button",
+    "default_icon": "sw.png"
+  },
+  "icons": {
+    "16": "sw.png",
+    "48": "sw.png",
+    "128": "sw.png"
+  }
+}
